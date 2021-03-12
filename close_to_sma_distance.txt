@@ -1,0 +1,6 @@
+input length = 20;
+
+def sma = Average(close, length);
+def perChng = (close/sma-1)*100;
+
+AddLabel(1, RoundUp(perChng, 2) + "%" );
