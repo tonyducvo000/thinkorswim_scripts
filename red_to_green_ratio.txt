@@ -1,0 +1,8 @@
+def red = Close < Open;
+def green = Close > Open;
+def length = 20;
+
+def redCount = Sum(red, length);
+def greenCount = Sum(green, length);
+
+AddLabel(1, redCount + ":" + greenCount);
