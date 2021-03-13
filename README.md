@@ -1,6 +1,6 @@
 ## ThinkOrSwim Scripts
 
-Repo containing collection of ThinkOrSwim scripts
+Repo containing collection of ThinkOrSwim scripts, scanners, study sets, etc.
 
 * **red_to_green_ratio.txt**  
 This script will help quickly evaluate the ratio of red candles to green candles for a given length.  The idea here is
