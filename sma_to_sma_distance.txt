@@ -1,0 +1,8 @@
+def quick_lngth = 20;
+def lng_lngth = 50;
+
+
+def sma_quick = Average(close, quick_lngth);
+def sma_long = Average(close, lng_lngth);
+
+plot test  = sma_quick - sma_long;
