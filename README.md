@@ -9,9 +9,10 @@ when the number of red outnumber green candles, the bears are winning. In this c
 * **close_to_sma_distance.txt**  
 A simple script to use for custom columns. This will calculate the distance between the closing price of the candle bar to a 20 SMA line.  The distance can be used as a way to gauge how strong the bearish/bullish momentum is.
 
-* **custom_scanners.txt** - Custom scanners I have built:  
+* **custom_scanners.txt**  
+Custom scanners I have built:  
   **Standard Deviation Dip Scanner**:  This scanner will search tickers that have dipped at least 1 deviation level below the median on a weekly chart.  Great for investors who are interested in dip buying!  
 ![](screenshots/std_deviation_dip.png)
 
-  **Momentum Scanner**:  This scanner will find tickers that have 3 consecutive green candle bars on day-to-day time scale (i.e., the stock has been green for the past 3 days).  Great for catching uptrend early and swing trading! 
+*  **Momentum Scanner**:  This scanner will find tickers that have 3 consecutive green candle bars on day-to-day time scale (i.e., the stock has been green for the past 3 days).  Great for catching uptrend early and swing trading! 
   
