@@ -14,5 +14,5 @@ Custom scanners I have built:
   **Standard Deviation Dip Scanner**:  This scanner will search tickers that have dipped at least 1 deviation level below the median on a weekly chart.  Great for investors who are interested in dip buying!  
 ![](screenshots/std_deviation_dip.png)
 
-*  **Momentum Scanner**:  This scanner will find tickers that have 3 consecutive green candle bars on day-to-day time scale (i.e., the stock has been green for the past 3 days).  Great for catching uptrend early and swing trading! 
+*  **Momentum Scanner - 3 day consecutive bars**:  This scanner will find tickers that have 3 consecutive green candle bars on day-to-day time scale (i.e., the stock has been green for the past 3 days).  Useful for catching uptrend early and swing trading. 
   
