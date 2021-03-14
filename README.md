@@ -10,7 +10,7 @@ when the number of red outnumber green candles, the bears are winning. In this c
 A simple script to use for custom columns. This will calculate the distance between the closing price of the candle bar to a 20 SMA line.  The distance can be used as a way to gauge how strong the bearish/bullish momentum is.
 
 * **TTM_yellow_hist.txt**  
-This script is to be used in a custom scan filter.  When applied to a scanning filter, ToS will screen tickers that currently have yellow histogram bars in the TTM squeeze indicator.  This indicates gaining momentum. See TTM Squeeze Yellow Hist in the custom_scanners.txt to see scanner in action.
+This script is to be used in a custom scan filter.  When applied to a scanning filter, ToS will screen tickers that *currently* have yellow histogram bars in the TTM squeeze indicator; this indicates gaining momentum. See "TTM Squeeze Yellow Hist" in the custom_scanners.txt to see the scanner in action.
 
 * **custom_scanners.txt**  
 Custom scanners I have built:  
