@@ -1,4 +1,4 @@
-## ThinkOrSwim Scripts
+## ThinkOrSwim Scripts and Scanners
 
 Repo containing collection of ThinkOrSwim scripts, scanners, study sets, etc.
 
@@ -15,4 +15,6 @@ Custom scanners I have built:
 ![](screenshots/std_deviation_dip.png)
 
 *  **Momentum Scanner - 3 day consecutive bars**:  This scanner will find tickers that have 3 consecutive green candle bars on day-to-day time scale (i.e., the stock has been green for the past 3 days).  Useful for catching uptrend early and swing trading. 
+
+* **Momentum Squeeze Above SMA**:  This scanner is a more refined momentum based scanner.  In addition to a momentum filter, this scanner screens for stocks 3% above a 20 SMA and uses a TTM Squeeze alert filter, for potential big price movements. 
   
