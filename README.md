@@ -22,4 +22,6 @@ Custom scanners I have built:
 * **Momentum Squeeze Above SMA**:  This scanner is a more refined momentum based scanner.  In addition to a momentum filter, this scanner screens for stocks 3% above a 20 SMA and uses a TTM Squeeze alert filter, for potential big price movements. 
 
 * **TTM Squeeze Yellow Hist**:  A scanner with TTM_yellow_hist script (see above) applied to filter.  
+
+* **RSI Oversold Momentum Scanner**:  Another dip based scan.  The dip is found by using an RSI crossover (oversold) with simple average type.  A filter for momentum (i.e., a filter for 3 consecutive green candle bars) is also applied, to screen for tickers where a dip *and recovery* has occurred.
   
