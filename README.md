@@ -24,4 +24,6 @@ Custom scanners I have built:
 * **TTM Squeeze Yellow Hist**:  A scanner with TTM_yellow_hist script (see above) applied to filter.  
 
 * **RSI Oversold Momentum Scanner**:  Another dip based scan.  The dip is found by using an RSI crossover (oversold) with simple average type.  A filter for momentum (i.e., a filter for 3 consecutive green candle bars) is also applied, to screen for tickers where a dip *and recovery* has occurred.
+
+* **52 Week High Gap Up Above SMA Intraday**:  This scanner scans for tickers that have gapped up at their 52 week high, inidicating a very strong bullish momentum.  A filter for openings 3% above the 20 SMA on a 3 minute time scale ensures there is bullish momentum on the intraday.  Good for day traders who are looking for a quick play, at anytime of the market opening.
   
